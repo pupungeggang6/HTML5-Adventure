@@ -66,7 +66,7 @@ function keyUp(event) {
 
 function errorHandle(err, url, line, col, obj) {
     if (obj != null) {
-        cancelAnimationFrame(gameInstacne)
+        cancelAnimationFrame(gameInstance)
     }
 }
 
